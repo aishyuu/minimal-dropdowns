@@ -10,6 +10,8 @@
     cursor: pointer;
 }
 
+
+
 .minimal-dropdowns-content-div {
     max-width: 150px;
     border: 1px solid black;
@@ -28,4 +30,8 @@
 
 .minimal-dropdowns-content-slot:hover {
     background-color: #3f4043;
+}
+
+.minimal-dropdowns-hidden {
+    display: none;
 }
