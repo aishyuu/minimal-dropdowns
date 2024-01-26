@@ -1,0 +1,8 @@
+.navbar {
+    display: flex;
+}
+
+.navPiece {
+    padding: 0.5rem 0.75rem;
+    border: 0.5px solid black;
+}

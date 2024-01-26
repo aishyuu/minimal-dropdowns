@@ -17,8 +17,21 @@ function component() {
       "https://www.theodinproject.com"
     ]
   }
-  const help = dropdownMenu(data)
-  body.appendChild(help)
+  const navBar = document.createElement("div");
+  navBar.classList.add("navbar")
+
+  /* eslint-disable no-plusplus */
+  for (let index = 0; index < 3; index++) {
+    const navPiece = document.createElement("a");
+    navPiece.classList.add("navPiece");
+    navPiece.innerText = "Testing"
+    navBar.appendChild(navPiece)
+  }
+
+  const drop = dropdownMenu(data)
+  navBar.appendChild(drop)
+  
+  body.appendChild(navBar)
 }
 
 component();
