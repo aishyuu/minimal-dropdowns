@@ -13,11 +13,12 @@
 
 
 .minimal-dropdowns-content-div {
-    max-width: 150px;
+    min-width: 150px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
+    clear: both;
 }
 
 .minimal-dropdowns-content-slot {
