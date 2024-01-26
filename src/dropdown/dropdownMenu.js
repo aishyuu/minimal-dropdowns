@@ -1,3 +1,5 @@
+import "./minimalDropdown.css"
+
 export default function dropdownMenu(dropdownData) {
     // Entire minimal-dropdowns div
     const menuDiv = document.createElement("div");
@@ -16,6 +18,7 @@ export default function dropdownMenu(dropdownData) {
     /* eslint-disable no-plusplus */
     for (let index = 0; index < dropdownData.options.length; index++) {
         const dropdownSlot = document.createElement("a");
+        dropdownSlot.target = "_blank"
         dropdownSlot.href = dropdownData.references[index];
         dropdownSlot.innerText = dropdownData.options[index];
         dropdownSlot.classList.add("minimal-dropdowns-content-slot");

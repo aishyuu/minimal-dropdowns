@@ -1,0 +1,31 @@
+.minimal-dropdowns-button {
+    background-color: #fae8c8;
+    border: 0;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.2rem;
+}
+
+.minimal-dropdowns-button:hover {
+    background-color: #d7bda3;
+    cursor: pointer;
+}
+
+.minimal-dropdowns-content-div {
+    max-width: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.minimal-dropdowns-content-slot {
+    background-color: #909193;
+    border: 0.5px solid black;
+    padding: 0.35rem 0.75rem;
+    text-decoration: none;
+    color: white;
+}
+
+.minimal-dropdowns-content-slot:hover {
+    background-color: #3f4043;
+}
